@@ -32,3 +32,4 @@ jobs:
         with:
           name: client-hisab-apk
           path: build/app/outputs/flutter-apk/app-release.apk
+
