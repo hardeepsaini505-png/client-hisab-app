@@ -21,6 +21,9 @@ jobs:
           channel: stable
           cache: true
 
+      - name: Create Android project files
+        run: flutter create --platforms=android --project-name client_hisab_app .
+
       - name: Install dependencies
         run: flutter pub get
 
@@ -32,4 +35,3 @@ jobs:
         with:
           name: client-hisab-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-
