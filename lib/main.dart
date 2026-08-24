@@ -197,6 +197,7 @@ class Entry {
 }
 
 class AppData {
+  AppData();
   List<Firm> firms = [];
   List<Client> clients = [];
   List<Entry> entries = [];
